@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: lightblue;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .App{
+      background-color: #fff;
+      max-width: 992px;
+      margin: auto;
+  }
+  .nav{
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid gray;
+      background-color: orange;
+      padding: 10px 20px;
+  }
+  .nav-menu{
+      list-style: none;
+  }
+
+  .nav-menu li{
+      display: inline-block;
+     
+  }
+  .nav-menu__link{
+      display: inline-block;
+      margin: 5px;
+      border: 1px solid grey;
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 3px 8px;
+      background-color: #fff;
+      transition: all 0,3s ease-in-out;
+  }
+  .nav-menu__link:hover{
+      border: 1px solid black;
+      background-color: rgb(228,228,228);
+      transition: all 0,3s ease-in-out;
+      cursor: pointer;
+  }
+  .logo-link{
+      color: white;
+      text-decoration: none;
+  }
+  .nav-menu__link.activate{
+      background-color: royalblue;
+      color: #fff;
+  }
+  .main-content{
+      width: 90%;
+      margin: auto;
+      padding-bottom: 50px;
+  }
+  .main-content h2{
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .home-image{
+      width: 100%;
+      height: 500px;
+      background-image: url('https://cdn.pixabay.com/photo/2017/12/28/16/18/bicycle-3045580_1280.jpg');
+      background-size: cover;
+      margin-bottom: 50px;
+      transition:all 0.9s ease-in-out;
+  }
+  .home-image:hover{
+    
+    background-image: url('https://cdn.pixabay.com/photo/2014/05/13/22/40/man-343674_1280.jpg');
+    cursor: pointer;
+    transform: scale(1.05);
+    transition:all 0.9s ease-in-out;
+    
+}
+ 
+  .thumbnail-Container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 50px;
+      width: 100%;
+  }
+  .home-thumbnail-1,
+  .home-thumbnail-2,
+  .home-thumbnail-3{
+      background-size: cover;
+      width: 200px;
+      height: 100px;
+      transition:all 0.3s ease-in-out;
+  }
+  .home-thumbnail-1:hover,
+  .home-thumbnail-2:hover,
+  .home-thumbnail-3:hover{
+      transform: scale(1.05);
+      cursor: pointer;
+      transition:all 0.3s ease-in-out;
+  }
+
+  .home-thumbnail-1{
+      background-image: url('https://cdn.pixabay.com/photo/2016/01/13/23/12/hands-1139098_1280.jpg');
+  }
+  .home-thumbnail-2{
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/14/05/26/children-1822701_1280.jpg');
+
+  }
+  .home-thumbnail-3{
+    background-image: url('https://cdn.pixabay.com/photo/2017/12/28/17/10/motorcycles-3045706_1280.jpg');
+
+  }
+  .container{
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+  }
+  .back{
+      display: inline-block;
+      margin: 5px;
+      border: 1px solid lightgray;
+      padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgb(149,216,238);
+    text-decoration: none;
+  }
+  
+  .actor-container{
+      display: inline-block;
+      text-align: center;
+  }
+  .actor-image{
+      width: 250px;
+      height: 250px;
+      /* background-color: royalblue; */
+      background-size: cover;
+      transition: all 0.3s ease-in-out;
+  }
+  .actor-image:hover{
+      cursor: pointer;
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+  }
+  .image_profile{
+width: 100%;
+height: 500px;
+background-size: cover;
+  }
+  .actor-profile-image{
+      width: 100%;
+      height: 500px;
+      background-size: cover;
+  }
+  .film-image{
+      width: 400mg;
+      height: 200px;
+      background-size: cover;
+      transition: all 0.3s ease-in-out;
+  }
+  .film-image:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+}
